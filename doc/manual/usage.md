@@ -8,7 +8,7 @@ import 'babel-polyfill' ;
 
 Then
 ```js
-const number = require( 'aureooms-js-collections' ) ;
+const number = require( 'aureooms-js-bisect' ) ;
 // or
-import number from 'aureooms-js-collections' ;
+import number from 'aureooms-js-bisect' ;
 ```
