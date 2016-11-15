@@ -6,7 +6,7 @@ import { attrgetter } from "aureooms-js-operator" ;
 import { map as m , list as l , sorted as s } from "aureooms-js-itertools" ;
 
 import { bisect_left , bisect_right , insort_left , insort_right } from '../../src' ;
-import { ValueError } from 'aureooms-js-collections' ;
+import { ValueError } from 'aureooms-js-error' ;
 
 function grade ( score ) {
 	const breakpoints = [ 60 , 70 , 80 , 90 ] ;

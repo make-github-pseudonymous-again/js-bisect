@@ -1,4 +1,4 @@
-import { ValueError } from 'aureooms-js-collections' ;
+import { ValueError } from 'aureooms-js-error' ;
 
 export default function bisect_right ( a , x , lo = 0 , hi = a.length ) {
 
