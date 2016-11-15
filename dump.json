@@ -10,7 +10,7 @@
     "access": null,
     "description": null,
     "lineNumber": 1,
-    "content": "import { ValueError } from 'aureooms-js-collections' ;\n\nexport default function bisect_left ( a , x , lo = 0 , hi = a.length ) {\n\n    if ( lo < 0 ) throw new ValueError( \"lo must be non-negative\" ) ;\n\n    while ( lo < hi ) {\n\n        const mid = ( lo + hi ) / 2 | 0 ;\n\n        if ( x > a[mid] ) lo = mid + 1 ;\n\n        else hi = mid ;\n\n    }\n\n    return lo ;\n\n}\n"
+    "content": "import { ValueError } from 'aureooms-js-error' ;\n\nexport default function bisect_left ( a , x , lo = 0 , hi = a.length ) {\n\n    if ( lo < 0 ) throw new ValueError( \"lo must be non-negative\" ) ;\n\n    while ( lo < hi ) {\n\n        const mid = ( lo + hi ) / 2 | 0 ;\n\n        if ( x > a[mid] ) lo = mid + 1 ;\n\n        else hi = mid ;\n\n    }\n\n    return lo ;\n\n}\n"
   },
   {
     "__docId__": 1,
@@ -75,7 +75,7 @@
     "access": null,
     "description": null,
     "lineNumber": 1,
-    "content": "import { ValueError } from 'aureooms-js-collections' ;\n\nexport default function bisect_right ( a , x , lo = 0 , hi = a.length ) {\n\n    if ( lo < 0 ) throw new ValueError( \"lo must be non-negative\" ) ;\n\n    while ( lo < hi ) {\n\n        const mid = ( lo + hi ) / 2 | 0 ;\n\n        if ( x < a[mid] ) hi = mid ;\n\n        else lo = mid + 1 ;\n\n    }\n\n    return lo ;\n\n}\n"
+    "content": "import { ValueError } from 'aureooms-js-error' ;\n\nexport default function bisect_right ( a , x , lo = 0 , hi = a.length ) {\n\n    if ( lo < 0 ) throw new ValueError( \"lo must be non-negative\" ) ;\n\n    while ( lo < hi ) {\n\n        const mid = ( lo + hi ) / 2 | 0 ;\n\n        if ( x < a[mid] ) hi = mid ;\n\n        else lo = mid + 1 ;\n\n    }\n\n    return lo ;\n\n}\n"
   },
   {
     "__docId__": 3,
