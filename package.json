@@ -30,14 +30,14 @@
     "aureooms-js-itertools": "^3.1.1",
     "aureooms-js-operator": "^1.0.2",
     "aureooms-js-sort": "^7.0.0",
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "codeclimate-test-reporter": "^0.4.0",
     "coveralls": "^2.11.15",
-    "esdoc": "^0.4.8",
-    "nyc": "^9.0.1"
+    "esdoc": "^0.5.1",
+    "nyc": "^10.0.0"
   },
   "homepage": "http://aureooms.github.io/js-bisect/",
   "keywords": [
