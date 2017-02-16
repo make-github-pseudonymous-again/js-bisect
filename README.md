@@ -14,7 +14,7 @@ let {
 } = bisect ;
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-bisect.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-bisect/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-bisect.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-bisect/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-bisect.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-bisect)
 [![Build Status](https://img.shields.io/travis/aureooms/js-bisect.svg?style=flat)](https://travis-ci.org/aureooms/js-bisect)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-bisect.svg?style=flat)](https://coveralls.io/r/aureooms/js-bisect)
