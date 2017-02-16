@@ -4,10 +4,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:aureooms-js-bisect
+jspm install npm:@aureooms/js-bisect
 ```
 
 ### npm
 ```terminal
-npm install aureooms-js-bisect --save
+npm install @aureooms/js-bisect --save
 ```
