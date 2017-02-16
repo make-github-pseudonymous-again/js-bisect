@@ -1,12 +1,12 @@
 import test from 'ava' ;
 
-import { issorted } from "aureooms-js-sort" ;
-import { increasing , colexicographical } from "aureooms-js-compare" ;
-import { attrgetter } from "aureooms-js-operator" ;
-import { map as m , list as l , sorted as s } from "aureooms-js-itertools" ;
+import { issorted } from "@aureooms/js-sort" ;
+import { increasing , colexicographical } from "@aureooms/js-compare" ;
+import { attrgetter } from "@aureooms/js-operator" ;
+import { map as m , list as l , sorted as s } from "@aureooms/js-itertools" ;
 
 import { bisect_left , bisect_right , insort_left , insort_right } from '../../src' ;
-import { ValueError } from 'aureooms-js-error' ;
+import { ValueError } from '@aureooms/js-error' ;
 
 function grade ( score ) {
 	const breakpoints = [ 60 , 70 , 80 , 90 ] ;
