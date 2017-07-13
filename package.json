@@ -30,7 +30,7 @@
     "@aureooms/js-itertools": "^3.1.1",
     "@aureooms/js-operator": "^1.0.2",
     "@aureooms/js-sort": "^7.0.0",
-    "ava": "^0.19.1",
+    "ava": "^0.21.0",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
