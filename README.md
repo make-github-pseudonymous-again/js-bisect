@@ -1,6 +1,8 @@
 [js-bisect](http://aureooms.github.io/js-bisect)
 ==
 
+<img src="https://idea-instructions.com/binary-search.png" width="864"/>
+
 Python's binary search library for JavaScript. Parent is
 [js-algorithms](https://github.com/aureooms/js-algorithms).
 
