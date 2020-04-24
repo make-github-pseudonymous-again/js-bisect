@@ -16,16 +16,20 @@ let {
 } = bisect ;
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-bisect.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-bisect/master/LICENSE)
-[![NPM version](https://img.shields.io/npm/v/@aureooms/js-bisect.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-bisect)
-[![Build Status](https://img.shields.io/travis/aureooms/js-bisect.svg?style=flat)](https://travis-ci.org/aureooms/js-bisect)
-[![Coverage Status](https://img.shields.io/coveralls/aureooms/js-bisect.svg?style=flat)](https://coveralls.io/r/aureooms/js-bisect)
-[![Dependencies Status](https://img.shields.io/david/aureooms/js-bisect.svg?style=flat)](https://david-dm.org/aureooms/js-bisect#info=dependencies)
-[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-bisect.svg?style=flat)](https://david-dm.org/aureooms/js-bisect#info=devDependencies)
-[![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-bisect.svg?style=flat)](https://codeclimate.com/github/aureooms/js-bisect)
-[![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-bisect.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-bisect)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-bisect.svg?style=flat)](https://github.com/aureooms/js-bisect/issues)
-[![Documentation](https://aureooms.github.io/js-bisect/badge.svg)](https://aureooms.github.io/js-bisect/source.html)
+[![License](https://img.shields.io/github/license/aureooms/js-bisect.svg)](https://raw.githubusercontent.com/aureooms/js-bisect/master/LICENSE)
+[![Version](https://img.shields.io/npm/v/@aureooms/js-bisect.svg)](https://www.npmjs.org/package/@aureooms/js-bisect)
+[![Build](https://img.shields.io/travis/aureooms/js-bisect/master.svg)](https://travis-ci.org/aureooms/js-bisect/branches)
+[![Dependencies](https://img.shields.io/david/aureooms/js-bisect.svg)](https://david-dm.org/aureooms/js-bisect)
+[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-bisect.svg)](https://david-dm.org/aureooms/js-bisect?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-bisect.svg)](https://github.com/aureooms/js-bisect/issues)
+[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-bisect.svg)](https://www.npmjs.org/package/@aureooms/js-bisect)
+
+[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-bisect.svg)](https://codeclimate.com/github/aureooms/js-bisect/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-bisect.svg)](https://codeclimate.com/github/aureooms/js-bisect/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-bisect/master.svg)](https://codecov.io/gh/aureooms/js-bisect)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-bisect.svg)](https://codeclimate.com/github/aureooms/js-bisect/trends/technical_debt)
+[![Documentation](http://aureooms.github.io/js-bisect//badge.svg)](http://aureooms.github.io/js-bisect//source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-bisect)](https://bundlephobia.com/result?p=@aureooms/js-bisect)
 
 ## References
 
