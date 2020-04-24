@@ -17,10 +17,10 @@ function grade ( score ) {
 
 test( "bisect" , t => {
 
-	t.throws( bisect_left.bind( null , [ ] , 0 , -1 , -1 ) , ValueError ) ;
-	t.throws( bisect_right.bind( null , [ ] , 0 , -1 , -1 ) , ValueError ) ;
-	t.throws( insort_left.bind( null , [ ] , 0 , -1 , -1 ) , ValueError ) ;
-	t.throws( insort_right.bind( null , [ ] , 0 , -1 , -1 ) , ValueError ) ;
+	t.throws( bisect_left.bind( null , [ ] , 0 , -1 , -1 ) , { instanceOf : ValueError } ) ;
+	t.throws( bisect_right.bind( null , [ ] , 0 , -1 , -1 ) , { instanceOf : ValueError } ) ;
+	t.throws( insort_left.bind( null , [ ] , 0 , -1 , -1 ) , { instanceOf : ValueError } ) ;
+	t.throws( insort_right.bind( null , [ ] , 0 , -1 , -1 ) , { instanceOf : ValueError } ) ;
 
 	let grades = l( m( grade , [33, 99, 77, 70, 89, 90, 100] ) ) ;
 
