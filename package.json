@@ -24,7 +24,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-bisect/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-bisect/issues"
   },
   "dependencies": {
     "@aureooms/js-error": "^5.0.0"
@@ -62,7 +62,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-bisect.git",
+    "url": "https://github.com/make-github-pseudonymous-again/js-bisect.git",
     "type": "git"
   },
   "scripts": {
