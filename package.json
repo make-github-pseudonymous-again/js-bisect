@@ -30,7 +30,7 @@
     "@aureooms/js-error": "^5.0.0"
   },
   "devDependencies": {
-    "@aureooms/js-compare": "1.4.8",
+    "@aureooms/js-compare": "2.0.0",
     "@aureooms/js-itertools": "5.0.1",
     "@aureooms/js-operator": "1.0.2",
     "@aureooms/js-sort": "7.0.0",
